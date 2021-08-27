@@ -24,7 +24,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::inertia('/about', 'AboutComponent');
+Route::inertia('/about', 'About');
 Route::inertia('/welcome', 'Welcome');
 
 require __DIR__.'/auth.php';

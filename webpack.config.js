@@ -6,4 +6,8 @@ module.exports = {
             '@': path.resolve('resources/js'),
         },
     },
+    devServer: {
+        static: './dist',
+        hot: true,
+    }
 };
