@@ -1,12 +1,3 @@
 <template>
-    <p>hi</p>
+    hi
 </template>
-<script>
-
-
-export default {
-    components: {
-    }
-}
-
-</script>
